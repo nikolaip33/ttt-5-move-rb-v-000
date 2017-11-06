@@ -7,5 +7,5 @@ board = Array.new(9, " ")
 puts "Welcome to Tic Tac Toe!"
 print "Please make an input: "
 input = input_to_index(gets.strip)
-
 move(board, input)
+display_board(board)
